@@ -1,0 +1,25 @@
+'
+' Use mikroE Timer Calculator to generate proper timer configuration
+' and timer ISR.
+'
+' https://www.mikroe.com/timer-calculator
+'
+module Click_GNSS4_timer
+
+include Click_GNSS4_types
+    
+sub procedure gnss4_configTimer() 
+
+implements
+
+sub procedure gnss4_configTimer() 
+
+end sub
+
+sub procedure Timer_interrupt() 
+
+    gnss4_tick() 
+
+end sub
+
+end.
